@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+li.select { color: red; }
+.big { font-size: 20px; }
+	
+li:hover { color: blue; }
+li:active { color: yellow; }
