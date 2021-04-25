@@ -1,7 +1,39 @@
 @charset "utf-8";
 /* CSS Document */
 li.select { color: red; }
+
 .big { font-size: 20px; }
+.blubox {
+	width: 1000px; height: 300px;
+	background-color: aqua;
+}
 	
 li:hover { color: blue; }
 li:active { color: yellow; }
+
+body {
+	background-image: url('Eqf0ym8VkAExD_P.png');
+	background-repeat: repeat-x;	
+}
+h1 {
+	height: 160px;
+	text-align: center;
+	line-height: 150px;
+	text-shadow: 1px 1px 1px blue;
+}
+h2 {
+	text-shadow: 5px 5px 5px red;
+}
+h3 {
+	text-shadow: 5px 5px 5px black;
+}
+
+div.container {
+	overflow: hidden;
+}
+div.item {
+	float: left;
+	padding-right: 15px;
+	padding-left: 15px;
+	border: 1px solid black
+}
