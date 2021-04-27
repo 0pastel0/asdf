@@ -6,6 +6,8 @@ li.select { color: red; }
 .blubox {
 	width: 1000px; height: 300px;
 	background-color: aqua;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 	
 li:hover { color: blue; }
